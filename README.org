@@ -13,6 +13,7 @@ $ sbcl
 > (push #p"/path/to/cl-hello/" asdf:*central-registry*)
 > (ql:quickload :cl-hello)
 #+END_SRC
+
 *** Unit tests
 #+BEGIN_SRC lisp
 (asdf:test-system :cl-hello)

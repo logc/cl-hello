@@ -10,4 +10,6 @@
 
 (is-print (cl-hello:hello) "Hello")
 
+(is-print (cl-hello:hello "[hello] greeted = world") "Hello world")
+
 (finalize)
